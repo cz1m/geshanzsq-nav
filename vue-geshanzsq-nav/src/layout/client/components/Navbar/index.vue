@@ -10,12 +10,12 @@
     <weather v-if="weatherOpen && !isMobile" class="navbar-weather" />
 
     <div class="right-menu">
-      <a href="https://gitee.com/geshanzsq/geshanzsq-nav" target="_blank">
+<!--      <a href="https://gitee.com/geshanzsq/geshanzsq-nav" target="_blank">
         <svg-icon icon-name="gitee" class="source-code" />
-      </a>
-      <a href="https://github.com/geshanzsq/geshanzsq-nav" target="_blank">
+      </a>-->
+<!--      <a href="https://github.com/cz1m" target="_blank">
         <svg-icon icon-name="github" class="source-code" />
-      </a>
+      </a>-->
     </div>
   </div>
 </template>

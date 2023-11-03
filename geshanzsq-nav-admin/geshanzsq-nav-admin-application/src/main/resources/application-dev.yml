@@ -4,7 +4,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/geshanzsq_nav?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
     username: root
-    password: root
+    password: 123456
     type: com.zaxxer.hikari.HikariDataSource
     # 连接池配置
     hikari:
@@ -23,11 +23,11 @@ spring:
   # redis 配置
   redis:
     # 地址
-    host: localhost
+    host: 47.98.249.203
     # 端口，默认为6379
     port: 6379
     # 密码
-    password:
+    password: 123321
     # 连接超时时间
     timeout: 10s
     lettuce:
